@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="shot type_Jump Shot <= 0.5\nsamples = 812\nvalue = [367, 445]\nclass = Yes", fillcolor="#399de52d"] ;
+1 [label="location_y <= -7.5\nsamples = 507\nvalue = [161, 346]\nclass = Yes", fillcolor="#399de588"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="location_x <= 1.0\nsamples = 114\nvalue = [12, 102]\nclass = Yes", fillcolor="#399de5e1"] ;
+1 -> 2 ;
+3 [label="samples = 101\nvalue = [5, 96]\nclass = Yes", fillcolor="#399de5f2"] ;
+2 -> 3 ;
+4 [label="samples = 13\nvalue = [7, 6]\nclass = No", fillcolor="#e5813924"] ;
+2 -> 4 ;
+5 [label="time from last shot <= 34.5\nsamples = 393\nvalue = [149, 244]\nclass = Yes", fillcolor="#399de563"] ;
+1 -> 5 ;
+6 [label="samples = 237\nvalue = [71, 166]\nclass = Yes", fillcolor="#399de592"] ;
+5 -> 6 ;
+7 [label="samples = 156\nvalue = [78, 78]\nclass = No", fillcolor="#e5813900"] ;
+5 -> 7 ;
+8 [label="location_x <= -162.0\nsamples = 305\nvalue = [206, 99]\nclass = No", fillcolor="#e5813984"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="location_y <= 152.0\nsamples = 38\nvalue = [16, 22]\nclass = Yes", fillcolor="#399de546"] ;
+8 -> 9 ;
+10 [label="samples = 20\nvalue = [5, 15]\nclass = Yes", fillcolor="#399de5aa"] ;
+9 -> 10 ;
+11 [label="samples = 18\nvalue = [11, 7]\nclass = No", fillcolor="#e581395d"] ;
+9 -> 11 ;
+12 [label="home game_Yes <= 0.5\nsamples = 267\nvalue = [190, 77]\nclass = No", fillcolor="#e5813998"] ;
+8 -> 12 ;
+13 [label="samples = 144\nvalue = [91, 53]\nclass = No", fillcolor="#e581396a"] ;
+12 -> 13 ;
+14 [label="samples = 123\nvalue = [99, 24]\nclass = No", fillcolor="#e58139c1"] ;
+12 -> 14 ;
+}
