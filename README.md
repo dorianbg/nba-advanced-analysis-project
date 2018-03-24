@@ -1,4 +1,4 @@
-# Submission for Data Madness presention (Data Analysis course)    
+# Submission for Data Madness (Data Analysis course)    
 
 Authors: Dorian Beganovic, Presian Abarov     
 
