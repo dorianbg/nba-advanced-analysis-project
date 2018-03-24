@@ -2,7 +2,7 @@
 
 Authors: Dorian Beganovic, Presian Abarov     
 
-Video: https://www.youtube.com/watch?v=XHsbQNyn44c&feature=youtu.be   
+Video: https://youtu.be/XHsbQNyn44c   
 
 The source code can be found in: DataMadness.ipynb    
 
